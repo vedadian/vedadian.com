@@ -1,0 +1,60 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+  direction: rtl;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Elmi, ot-book, serif;
+  font-size: 32px;
+  background-color: #181e19;
+  color: wheat;
+}
+
+code {
+  font-size: 82%;
+}
+
+div.behrooz-vedadian {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+div.behrooz-vedadian img {
+  width: 15rem;
+}
+
+div.links a {
+  text-decoration: none;
+  color: inherit;
+}
+
+div.whole-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+div.whole-page div {
+  max-width: 40em;
+}
+
+div.error {
+  margin-top: 1em;
+  font-family: monospace;
+  font-size: 70%;
+  color: red;
+}
+div.nav, div.highlight {
+  direction: ltr;
+}

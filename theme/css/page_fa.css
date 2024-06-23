@@ -1,0 +1,130 @@
+:root {
+    --main-bg-color: #f4f5ef;
+    --main-fg-color: #263e30;
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+html, body {
+    height: 100%;
+    color: var(--main-fg-color);
+    background-color: var(--main-bg-color);
+    direction: rtl;
+    box-sizing: border-box;
+    font-family: Elmi, et-book, serif;
+    font-size: 24px;
+    font-weight: 300;
+}
+code, .highlight {
+    font-size: 80%;
+}
+.highlight {
+    overflow: scroll;
+}
+figure {
+    counter-increment: figure;
+    text-align: center;
+}
+figcaption {
+    text-align: center;
+}
+figcaption::before {
+    content: "شکل "counters(figure, ".", persian) ": ";
+    font-style: italic;
+}
+a {
+    color: #005c8a;
+    text-decoration: none;
+    background: linear-gradient(var(--main-bg-color), var(--main-bg-color)), linear-gradient(var(--main-bg-color), var(--main-bg-color)), linear-gradient(currentColor, currentColor);
+    background-size: 0.05em 1px, 0.05em 1px, 1px 1px;
+    background-repeat: no-repeat, no-repeat, repeat-x;
+    background-position-y: 87%, 87%, 87%;
+    text-shadow: 0.03em 0 var(--main-bg-color), -0.03em 0 var(--main-bg-color), 0 0.03em var(--main-bg-color), 0 -0.03em var(--main-bg-color), 0.06em 0 var(--main-bg-color), -0.06em 0 var(--main-bg-color), 0.09em 0 var(--main-bg-color), -0.09em 0 var(--main-bg-color), 0.12em 0 var(--main-bg-color), -0.12em 0 var(--main-bg-color), 0.15em 0 var(--main-bg-color), -0.15em 0 var(--main-bg-color);
+}
+ul, ol {
+    list-style-position: outside;
+    position: relative;
+    right: 1em;
+}
+p:not(:first-child) {
+    margin-top: 1rem;
+}
+h2, h3, h4 {
+    font-weight: normal;
+    font-style: italic;
+    margin-top: 1.5rem;
+}
+article {
+    padding-bottom: 1em;
+}
+div.wrap_text > * {
+    width: 48rem;
+    margin: auto;
+}
+section > * {
+    width: 36rem;
+}
+span.sidenote {
+    counter-increment: sidenote;
+}
+span.sidenote::before {
+    content: counters(sidenote, ".", persian) "";
+    position: relative;
+    top: -0.5rem;
+    font-size: 70%;
+}
+span.sidenote_content {
+    float: left;
+    clear: left;
+    margin-left: -12rem;
+    width: 10.5rem;
+    display: block;
+    font-size: 85%;
+    font-style: italic;
+}
+span.sidenote_content::before {
+    content: counters(sidenote, ".", persian) "";
+    font-size: 80%;
+    position: relative;
+    top: -0.5rem;
+}
+div.wrap_text:has(> .title) {
+    background-color: #dfe2d0;
+    padding-top: 1rem;
+}
+div.wrap_text:has(> .subtitle) {
+    background-color: #dfe2ec;
+    padding-bottom: 1rem;
+    margin-bottom: 1rem;
+    font-style: italic;
+}
+div.nav {
+    font-family: monospace;
+    font-size: 70%;
+    position: fixed;
+    left: 0;
+    top: 0;
+}
+div.nav a {
+    text-shadow: none;
+    background: #efefbe;
+    padding: 0.25rem;
+    border-radius: 0.25rem;
+}
+div.nav ul {
+    float: left;
+    display: block;
+    right: 0;
+    padding: 0.25rem;
+}
+div.nav li {
+    display: inline-block;
+}
+div.nav li::before {
+    content: "/";
+    padding: 0.15rem;
+}
+div.nav, div.highlight {
+    direction: ltr;
+}

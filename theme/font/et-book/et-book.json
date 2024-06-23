@@ -1,0 +1,27 @@
+{
+  "font-display": "block",
+  "font-family": "et-book",
+  "files": {
+    "et-book-roman-line-figures": {
+      "font-weight": "normal",
+      "font-style": "normal"
+    },
+    "et-book-display-italic-old-style-figures": {
+      "font-weight": "normal",
+      "font-style": "italic"
+    },
+    "et-book-bold-line-figures": {
+      "font-weight": "bold",
+      "font-style": "normal"
+    },
+    "et-book-semi-bold-old-style-figures": {
+      "font-weight": 600,
+      "font-style": "normal"
+    },
+    "et-book-roman-old-style-figures": {
+      "font-family": "et-book os",
+      "font-weight": "normal",
+      "font-style": "normal"
+    }
+  }
+}

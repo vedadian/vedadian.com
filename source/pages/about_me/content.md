@@ -1,0 +1,27 @@
+Hello and salutations! My name is Behrooz Vedadian (بهروز ودادیان in Farsi) and I enjoy mathematics, arts and computer science. I currently live in Bojnord with my family. In case you're in a hurry, here are some of the highlights of my programming career:
+- Designed and implemented a `C++`-based MLP[>Multi Layer Perceptron] training and inference engine (during my time at Hoda Systems, 2010)
+- Developed an NID[>National Identification] card reader using a crude version CNN[>Convolutional Neural Network]s for City Bank of Egypt (2012)
+- Proposed an encoder model for NMT[>Neural Machine Translation] akin and prior to ["Transformers"](https://arxiv.org/abs/1706.03762)  using GSP[>Graph&nbsp;Signal&nbsp;Processing] techniques as my [Ph.D. proposal](/pdfs/phd/proposal.pdf) (September, 2014; in Farsi)
+- Developed the Targoman SMT[>Statistical Machine Translation] engine as a team member (during my time at HLT Lab. 2016)
+- Co-founded Targoman Co. Pjc. with my supervisor and another colleague (2018)
+- Heavily contributed to development of [Tarjomyar](https://tarjomyar.ir), an HAT[>Human Aided Translation] software (during my time at Targoman. 2018)
+- Developed a RESTful NMT API server on top of [MarianNMT](https://marian-nmt.github.io/) (during my time at Targoman, 2019)
+
+
+## Me & Academia
+Born in the early days of spring in 1982, I began highscholl in 1997, a time when personal computers were rapidly gaining popularity around the world. By then I had already developed an interest in computer programming and I dreamt of creating an ASR[>Automatic Speech Recognition] system. Although I did not know anything about artificial intelligence, my fascination with the dream of intelligent computers was making me restless.
+
+I started to delve into Fourier Transforms and other tools of processing audio signals. I enrolled in the [Sharif University of Technology](https://www.sharif.edu/) to pursue a degree in Electrical Engineering (I thought programmers must be able to provide themselves with appropriate hardware :) ). During my studies my passion for mathematics led me to immerse in signal processing. As a result, after graduation I switched to studying Communication Systems Engineering at [AmirKabir University of Technology](https://aut.ac.ir/), where I earned my master's degree.
+
+
+After eight years of working in the AI[>Artificial Intelligence] industry at Hoda Systems Co. Ltd., where I developed solutions for OCR[>Optical Character Recognition], I felt an overwhelming desire to return to academia and pursue a Ph.D. in Natural Language Processing. This time, it was the allure of language models, which are crucial for OCR, and the captivating world of human language that drew me in. As I delved deeper into the study of language models, I became increasingly fascinated by the intricacies of human language. Although I have already unofficially abandoned my Ph.D. pursuit due to various reasons, the experience remains an important chapter in my academic journey.
+
+## Software Industry
+My professional journey began as a high school student, developing small software applications for local clients in my hometown. However, it was my role as an ML[>Machine Learning] engineer at Hoda Systems that formalized my connection to machine learning. Prior to Hoda Systems, I primarily worked with the `PASCAL` language, specifically `Delphi`, which proved advantageous as I achieved a perfect score in a programming language course at Sharif University of Technology. Additionally, in my second year at the university, I served as a teaching assistant for the same programming language course. During my time at Hoda Systems, I expanded my skills to include `C++` and became proficient in writing `C++` programs.
+
+After nearly seven years at Hoda Systems, I felt the urge to continue my academic pursuits and joined the development of a national machine-translation system, funded by the ITRC[>Iran Telecommunication Research Center]. As part of the project, we redesigned the Moses Translation Toolkit to make it more maintainable and production-ready. Our team had a great time reviewing every design decision we made for the final software. The outcome of our efforts, although not all of it remains relevant today, can be found in the [Targoman's Github repositories](http://github.com/targoman). This project was undertaken in the HLT[>Human Language Technology] Lab. of the Computer Department at AmirKabir University of Technology, under the supervision of Dr. Shahram Khadivi, alongside my colleagues.
+
+After nearly two years, I, along with my supervisor and another colleague, co-founded Targoman Co. Pjc. We went on to secure two more projects and grants, ultimately developing a neural machine translation engine for the Farsi-English language pair. At Targoman Co. Pjc, we also created an web application, which featured DLA[>Document Layout Analysis] of PDF documents as a key component. Although I had some experience with front-end programming during my time at Hoda Systems, working on Tarjomyar was a significant challenge that allowed me to delve deeper into the realm of front-end development.
+
+## Final Words
+As I look back on my journey, I am filled with gratitude and joy for the incredible experiences and opportunities that life has brought my way. Thank you for bearing with me and if you felt like contacting me you can do so by email using address `vedadian` at `gmail` dot `com`.

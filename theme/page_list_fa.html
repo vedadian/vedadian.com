@@ -1,0 +1,26 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>خانه‌ی دیجیتال بهروز ودادیان, فهرست صفحات</title>
+        <link rel="stylesheet" href="/font/elmi/elmi.css" />
+        <link rel="stylesheet" href="/font/et-book/et-book.css" />
+        <link rel="stylesheet" href="/css/temml.css" />
+        <link rel="stylesheet" href="/css/page_list_fa.css" />
+    </head>
+    <body>
+        <div class="nav"><ul>{% for u, t in nav_items() %}<li><a href="{{u}}">{{t}}</a></li>{% endfor %}</ul></div>
+        <article>
+            <div class="wrap_text"><h1 class="title">خانه‌ی دیجیتال بهروز ودادین</h1></div>
+            <div class="wrap_text"><p class="subtitle">فهرست صفحات</p></div>
+            <div class="wrap_text">
+                <p>بصورت معمول شما نباید به اینجا هدایت می‌شدید :) اما به هر حال این فهرست صفحاتی است اکنون موجود هستند</p>
+                <ul>
+                    {% for url, (meta, mds) in children.items() %}
+                    {% if(meta.title) %}<li><a href="/{{url}}">{{meta.title | handle_math}}</a></li>{% endif %}
+                    {% endfor %}
+                </ul>
+            </div>
+        </article>
+    </body>
+</html>

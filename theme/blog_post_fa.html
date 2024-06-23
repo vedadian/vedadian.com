@@ -1,0 +1,19 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>گاهنوشته‌های بهروز ودادیان - {{meta.title}}</title>
+        <link rel="stylesheet" href="/font/elmi/elmi.css" />
+        <link rel="stylesheet" href="/font/et-book/et-book.css" />
+        <link rel="stylesheet" href="/css/temml.css" />
+        <link rel="stylesheet" href="/css/blog_post_fa.css" />
+    </head>
+    <body>
+        <div class="nav"><ul>{% for u, t in nav_items() %}<li><a href="{{u}}">{{t}}</a></li>{% endfor %}</ul></div>
+        <article>
+            <div class="wrap_text"><h1 class="title">{{meta.title | handle_math}}</h1></div>
+            <div class="wrap_text"><p class="subtitle">توسط {{get_author(meta)}} در {{meta.date | short_solar_hijri}}{% if meta.tags %}{% for tag in meta.tags %}<span class="separator"></span><span class="tag"><a href="{{find_url('tags/' + tag)}}"><img alt="{{tag}}" src="{{tag | get_theme_resource('unknown', '.svg')}}"></a></span>{% endfor %}{% endif %}</p></div>
+            {% for name, contents in mds.items() %}<div class="wrap_text"><section id="s_{{name}}">{{contents | safe }}</section>{% else %}<section><p>متاسفم :( موفق نشدم محتوای این نوشته را از سرور بگیرم.</p></section></div>{% endfor %}
+        </article>
+    </body>
+</html>

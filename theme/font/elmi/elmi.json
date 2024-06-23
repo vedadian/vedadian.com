@@ -1,0 +1,25 @@
+{
+  "font-family": "Elmi",
+  "font-display": "block",
+  "unicode-range": "U+600-6FF",
+  "size-adjust": "113%",
+  "files": {
+    "HM_FElmi": {
+      "font-style": "normal",
+      "font-weight": "normal"
+    },
+    "HM_FElmiBd": {
+      "font-style": "normal",
+      "font-weight": "bold"
+    },
+    "HM_FElmiIt": {
+      "font-style": "italic",
+      "font-weight": "normal"
+    },
+    "HM_FElmiBdIt": {
+      "font-style": "italic",
+      "font-weight": "bold"
+    }
+
+  }
+}

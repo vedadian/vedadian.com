@@ -1,0 +1,26 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>Behrooz Vedadian's Digital Home, List of Pages</title>
+        <link rel="stylesheet" href="/font/elmi/elmi.css" />
+        <link rel="stylesheet" href="/font/et-book/et-book.css" />
+        <link rel="stylesheet" href="/css/temml.css" />
+        <link rel="stylesheet" href="/css/page_list.css" />
+    </head>
+    <body>
+        <div class="nav"><ul>{% for u, t in nav_items() %}<li><a href="{{u}}">{{t}}</a></li>{% endfor %}</ul></div>
+        <article>
+            <div class="wrap_text"><h1 class="title">Behrooz Vedadian's Digital Home</h1></div>
+            <div class="wrap_text"><p class="subtitle">List of pages</p></div>
+            <div class="wrap_text">
+                <p>Normally you should not have been directed here :) but anyways, here is a list of pages currently available</p>
+                <ul>
+                    {% for url, (meta, mds) in children.items() %}
+                    {% if(meta.title) %}<li><a href="/{{url}}">{{meta.title | handle_math}}</a></li>{% endif %}
+                    {% endfor %}
+                </ul>
+            </div>
+        </article>
+    </body>
+</html>
